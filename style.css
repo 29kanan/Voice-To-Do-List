@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(167, 223, 243);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(229, 246, 252);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(219, 247, 252);
+    color: rgb(147, 144, 141);
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    color: rgb(225, 141, 32);
+    margin-bottom: 40px;
+}
+
+#startBtn {
+    background-color: rgb(255, 244, 197);
+    padding: 10px;
+    font-size: medium;
+    border-color: rgb(255, 251, 235);
+    border-radius: 5px;
+    color: #333;
+}
+
+#taskList {
+    list-style: none;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+
+#taskList li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: rgb(255, 217, 157);
+    color: #333;
+    border-radius: 5px;
+    position: relative;
+}
